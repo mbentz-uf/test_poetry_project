@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-poetry-project"
+version = "0.1.0"
+description = ""
+authors = ["Michael Bentz <mbentz@ufl.edu>"]
+readme = "README.md"
+packages = [{include = "test_poetry_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
